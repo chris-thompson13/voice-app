@@ -14,6 +14,8 @@
 		662AAB6B1FC081C6006BC1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB691FC081C6006BC1B4 /* LaunchScreen.storyboard */; };
 		662AAB761FC081C7006BC1B4 /* Orai_Trial_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB751FC081C7006BC1B4 /* Orai_Trial_AppTests.swift */; };
 		662AAB811FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB801FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift */; };
+		662AAB901FC08B2A006BC1B4 /* icons8-microphone-250.png in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB8F1FC08B2A006BC1B4 /* icons8-microphone-250.png */; };
+		662AAB941FC099F5006BC1B4 /* icons8-stop-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB931FC099F5006BC1B4 /* icons8-stop-120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		662AAB7C1FC081C7006BC1B4 /* Orai Trial AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orai Trial AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		662AAB801FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orai_Trial_AppUITests.swift; sourceTree = "<group>"; };
 		662AAB821FC081C7006BC1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662AAB8F1FC08B2A006BC1B4 /* icons8-microphone-250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-microphone-250.png"; sourceTree = "<group>"; };
+		662AAB931FC099F5006BC1B4 /* icons8-stop-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-stop-120.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				662AAB741FC081C7006BC1B4 /* Orai Trial AppTests */,
 				662AAB7F1FC081C7006BC1B4 /* Orai Trial AppUITests */,
 				662AAB5E1FC081C6006BC1B4 /* Products */,
+				662AAB951FC099F9006BC1B4 /* imgs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +102,6 @@
 		662AAB5F1FC081C6006BC1B4 /* Orai Trial App */ = {
 			isa = PBXGroup;
 			children = (
-				662AAB8E1FC089DD006BC1B4 /* New Group */,
 				662AAB601FC081C6006BC1B4 /* AppDelegate.swift */,
 				662AAB621FC081C6006BC1B4 /* ViewController.swift */,
 				662AAB641FC081C6006BC1B4 /* Main.storyboard */,
@@ -126,11 +130,13 @@
 			path = "Orai Trial AppUITests";
 			sourceTree = "<group>";
 		};
-		662AAB8E1FC089DD006BC1B4 /* New Group */ = {
+		662AAB951FC099F9006BC1B4 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				662AAB931FC099F5006BC1B4 /* icons8-stop-120.png */,
+				662AAB8F1FC08B2A006BC1B4 /* icons8-microphone-250.png */,
 			);
-			path = "New Group";
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				662AAB6B1FC081C6006BC1B4 /* LaunchScreen.storyboard in Resources */,
+				662AAB901FC08B2A006BC1B4 /* icons8-microphone-250.png in Resources */,
 				662AAB681FC081C6006BC1B4 /* Assets.xcassets in Resources */,
+				662AAB941FC099F5006BC1B4 /* icons8-stop-120.png in Resources */,
 				662AAB661FC081C6006BC1B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
