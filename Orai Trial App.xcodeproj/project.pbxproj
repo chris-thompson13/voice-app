@@ -97,6 +97,7 @@
 		662AAB5F1FC081C6006BC1B4 /* Orai Trial App */ = {
 			isa = PBXGroup;
 			children = (
+				662AAB8E1FC089DD006BC1B4 /* New Group */,
 				662AAB601FC081C6006BC1B4 /* AppDelegate.swift */,
 				662AAB621FC081C6006BC1B4 /* ViewController.swift */,
 				662AAB641FC081C6006BC1B4 /* Main.storyboard */,
@@ -123,6 +124,13 @@
 				662AAB821FC081C7006BC1B4 /* Info.plist */,
 			);
 			path = "Orai Trial AppUITests";
+			sourceTree = "<group>";
+		};
+		662AAB8E1FC089DD006BC1B4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
