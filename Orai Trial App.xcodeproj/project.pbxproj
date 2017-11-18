@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662AAB611FC081C6006BC1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB601FC081C6006BC1B4 /* AppDelegate.swift */; };
+		662AAB631FC081C6006BC1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB621FC081C6006BC1B4 /* ViewController.swift */; };
+		662AAB661FC081C6006BC1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB641FC081C6006BC1B4 /* Main.storyboard */; };
+		662AAB681FC081C6006BC1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB671FC081C6006BC1B4 /* Assets.xcassets */; };
+		662AAB6B1FC081C6006BC1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB691FC081C6006BC1B4 /* LaunchScreen.storyboard */; };
+		662AAB761FC081C7006BC1B4 /* Orai_Trial_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB751FC081C7006BC1B4 /* Orai_Trial_AppTests.swift */; };
+		662AAB811FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB801FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		662AAB721FC081C7006BC1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662AAB551FC081C6006BC1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662AAB5C1FC081C6006BC1B4;
+			remoteInfo = "Orai Trial App";
+		};
+		662AAB7D1FC081C7006BC1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 662AAB551FC081C6006BC1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 662AAB5C1FC081C6006BC1B4;
+			remoteInfo = "Orai Trial App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		662AAB5D1FC081C6006BC1B4 /* Orai Trial App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orai Trial App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662AAB601FC081C6006BC1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		662AAB621FC081C6006BC1B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		662AAB651FC081C6006BC1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		662AAB671FC081C6006BC1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		662AAB6A1FC081C6006BC1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		662AAB6C1FC081C6006BC1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662AAB711FC081C7006BC1B4 /* Orai Trial AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orai Trial AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662AAB751FC081C7006BC1B4 /* Orai_Trial_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orai_Trial_AppTests.swift; sourceTree = "<group>"; };
+		662AAB771FC081C7006BC1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662AAB7C1FC081C7006BC1B4 /* Orai Trial AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orai Trial AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662AAB801FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orai_Trial_AppUITests.swift; sourceTree = "<group>"; };
+		662AAB821FC081C7006BC1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662AAB5A1FC081C6006BC1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662AAB6E1FC081C7006BC1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662AAB791FC081C7006BC1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662AAB541FC081C6006BC1B4 = {
+			isa = PBXGroup;
+			children = (
+				662AAB5F1FC081C6006BC1B4 /* Orai Trial App */,
+				662AAB741FC081C7006BC1B4 /* Orai Trial AppTests */,
+				662AAB7F1FC081C7006BC1B4 /* Orai Trial AppUITests */,
+				662AAB5E1FC081C6006BC1B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662AAB5E1FC081C6006BC1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662AAB5D1FC081C6006BC1B4 /* Orai Trial App.app */,
+				662AAB711FC081C7006BC1B4 /* Orai Trial AppTests.xctest */,
+				662AAB7C1FC081C7006BC1B4 /* Orai Trial AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662AAB5F1FC081C6006BC1B4 /* Orai Trial App */ = {
+			isa = PBXGroup;
+			children = (
+				662AAB601FC081C6006BC1B4 /* AppDelegate.swift */,
+				662AAB621FC081C6006BC1B4 /* ViewController.swift */,
+				662AAB641FC081C6006BC1B4 /* Main.storyboard */,
+				662AAB671FC081C6006BC1B4 /* Assets.xcassets */,
+				662AAB691FC081C6006BC1B4 /* LaunchScreen.storyboard */,
+				662AAB6C1FC081C6006BC1B4 /* Info.plist */,
+			);
+			path = "Orai Trial App";
+			sourceTree = "<group>";
+		};
+		662AAB741FC081C7006BC1B4 /* Orai Trial AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				662AAB751FC081C7006BC1B4 /* Orai_Trial_AppTests.swift */,
+				662AAB771FC081C7006BC1B4 /* Info.plist */,
+			);
+			path = "Orai Trial AppTests";
+			sourceTree = "<group>";
+		};
+		662AAB7F1FC081C7006BC1B4 /* Orai Trial AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				662AAB801FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift */,
+				662AAB821FC081C7006BC1B4 /* Info.plist */,
+			);
+			path = "Orai Trial AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662AAB5C1FC081C6006BC1B4 /* Orai Trial App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662AAB851FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial App" */;
+			buildPhases = (
+				662AAB591FC081C6006BC1B4 /* Sources */,
+				662AAB5A1FC081C6006BC1B4 /* Frameworks */,
+				662AAB5B1FC081C6006BC1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orai Trial App";
+			productName = "Orai Trial App";
+			productReference = 662AAB5D1FC081C6006BC1B4 /* Orai Trial App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		662AAB701FC081C7006BC1B4 /* Orai Trial AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662AAB881FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial AppTests" */;
+			buildPhases = (
+				662AAB6D1FC081C7006BC1B4 /* Sources */,
+				662AAB6E1FC081C7006BC1B4 /* Frameworks */,
+				662AAB6F1FC081C7006BC1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662AAB731FC081C7006BC1B4 /* PBXTargetDependency */,
+			);
+			name = "Orai Trial AppTests";
+			productName = "Orai Trial AppTests";
+			productReference = 662AAB711FC081C7006BC1B4 /* Orai Trial AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		662AAB7B1FC081C7006BC1B4 /* Orai Trial AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662AAB8B1FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial AppUITests" */;
+			buildPhases = (
+				662AAB781FC081C7006BC1B4 /* Sources */,
+				662AAB791FC081C7006BC1B4 /* Frameworks */,
+				662AAB7A1FC081C7006BC1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662AAB7E1FC081C7006BC1B4 /* PBXTargetDependency */,
+			);
+			name = "Orai Trial AppUITests";
+			productName = "Orai Trial AppUITests";
+			productReference = 662AAB7C1FC081C7006BC1B4 /* Orai Trial AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662AAB551FC081C6006BC1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Chris Thompson";
+				TargetAttributes = {
+					662AAB5C1FC081C6006BC1B4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					662AAB701FC081C7006BC1B4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 662AAB5C1FC081C6006BC1B4;
+					};
+					662AAB7B1FC081C7006BC1B4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 662AAB5C1FC081C6006BC1B4;
+					};
+				};
+			};
+			buildConfigurationList = 662AAB581FC081C6006BC1B4 /* Build configuration list for PBXProject "Orai Trial App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662AAB541FC081C6006BC1B4;
+			productRefGroup = 662AAB5E1FC081C6006BC1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662AAB5C1FC081C6006BC1B4 /* Orai Trial App */,
+				662AAB701FC081C7006BC1B4 /* Orai Trial AppTests */,
+				662AAB7B1FC081C7006BC1B4 /* Orai Trial AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662AAB5B1FC081C6006BC1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662AAB6B1FC081C6006BC1B4 /* LaunchScreen.storyboard in Resources */,
+				662AAB681FC081C6006BC1B4 /* Assets.xcassets in Resources */,
+				662AAB661FC081C6006BC1B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662AAB6F1FC081C7006BC1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662AAB7A1FC081C7006BC1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662AAB591FC081C6006BC1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662AAB631FC081C6006BC1B4 /* ViewController.swift in Sources */,
+				662AAB611FC081C6006BC1B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662AAB6D1FC081C7006BC1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662AAB761FC081C7006BC1B4 /* Orai_Trial_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662AAB781FC081C7006BC1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662AAB811FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		662AAB731FC081C7006BC1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662AAB5C1FC081C6006BC1B4 /* Orai Trial App */;
+			targetProxy = 662AAB721FC081C7006BC1B4 /* PBXContainerItemProxy */;
+		};
+		662AAB7E1FC081C7006BC1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 662AAB5C1FC081C6006BC1B4 /* Orai Trial App */;
+			targetProxy = 662AAB7D1FC081C7006BC1B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		662AAB641FC081C6006BC1B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662AAB651FC081C6006BC1B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		662AAB691FC081C6006BC1B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662AAB6A1FC081C6006BC1B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662AAB831FC081C7006BC1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		662AAB841FC081C7006BC1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662AAB861FC081C7006BC1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Orai Trial App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Orai-Trial-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		662AAB871FC081C7006BC1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Orai Trial App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Orai-Trial-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		662AAB891FC081C7006BC1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Orai Trial AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Orai-Trial-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orai Trial App.app/Orai Trial App";
+			};
+			name = Debug;
+		};
+		662AAB8A1FC081C7006BC1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Orai Trial AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Orai-Trial-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orai Trial App.app/Orai Trial App";
+			};
+			name = Release;
+		};
+		662AAB8C1FC081C7006BC1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Orai Trial AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Orai-Trial-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Orai Trial App";
+			};
+			name = Debug;
+		};
+		662AAB8D1FC081C7006BC1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Orai Trial AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Orai-Trial-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Orai Trial App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662AAB581FC081C6006BC1B4 /* Build configuration list for PBXProject "Orai Trial App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662AAB831FC081C7006BC1B4 /* Debug */,
+				662AAB841FC081C7006BC1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662AAB851FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662AAB861FC081C7006BC1B4 /* Debug */,
+				662AAB871FC081C7006BC1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662AAB881FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662AAB891FC081C7006BC1B4 /* Debug */,
+				662AAB8A1FC081C7006BC1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662AAB8B1FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662AAB8C1FC081C7006BC1B4 /* Debug */,
+				662AAB8D1FC081C7006BC1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662AAB551FC081C6006BC1B4 /* Project object */;
+}
