@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZJf-5Z-Pbq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,9 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Home-->
         <scene sceneID="iNb-Q9-0m8">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLc-Bt-13c" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="wIY-Xe-sJp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rMZ-CS-jaL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -20,11 +21,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="a1B-dE-XmL"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Gq1-Vs-xs6"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="Gq1-Vs-xs6"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CLc-Bt-13c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-63" y="240"/>
+            <point key="canvasLocation" x="158" y="-155"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="A0h-GF-uwk">
@@ -37,11 +37,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="wIY-Xe-sJp" kind="relationship" relationship="viewControllers" id="rhH-Ep-6G0"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="h9R-QX-IBJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3rw-bv-qMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-852" y="-142"/>
+            <point key="canvasLocation" x="-478" y="-513"/>
         </scene>
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
@@ -66,6 +67,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Record" id="Rmh-V4-gBp"/>
                     <navigationItem key="navigationItem" title="Home" leftItemsSupplementBackButton="YES" id="p8s-R8-LBw">
                         <barButtonItem key="backBarButtonItem" title="Back" id="yEd-NI-Cvm"/>
                     </navigationItem>
@@ -75,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986" y="39"/>
+            <point key="canvasLocation" x="-1305" y="-372"/>
         </scene>
     </scenes>
 </document>
