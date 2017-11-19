@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0910"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "784582CE61503BA98BD147D954272D98"
+               BlueprintIdentifier = "99850297C75DAA05F6E64C6AC2DC0AE4"
                BuildableName = "Pods_Orai_Trial_App.framework"
                BlueprintName = "Pods-Orai Trial App"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "784582CE61503BA98BD147D954272D98"
+            BlueprintIdentifier = "99850297C75DAA05F6E64C6AC2DC0AE4"
             BuildableName = "Pods_Orai_Trial_App.framework"
             BlueprintName = "Pods-Orai Trial App"
             ReferencedContainer = "container:Pods.xcodeproj">

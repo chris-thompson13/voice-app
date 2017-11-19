@@ -6,6 +6,9 @@ target 'Orai Trial App' do
   use_frameworks!
 
   pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+  
+  pod 'Socket.IO-Client-Swift', '~> 13.0.0'
+
 
 
   # Pods for Orai Trial App
