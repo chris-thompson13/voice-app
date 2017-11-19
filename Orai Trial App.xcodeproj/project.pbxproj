@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EF0D00747D0712C04D170B2 /* Pods_Orai_Trial_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53350D0C368D0B4B2EBBF8CB /* Pods_Orai_Trial_AppUITests.framework */; };
+		236A783D669B59E059ADD091 /* Pods_Orai_Trial_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E314AF14A3B03AA568858F /* Pods_Orai_Trial_AppTests.framework */; };
 		662AAB611FC081C6006BC1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB601FC081C6006BC1B4 /* AppDelegate.swift */; };
 		662AAB631FC081C6006BC1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB621FC081C6006BC1B4 /* ViewController.swift */; };
 		662AAB661FC081C6006BC1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB641FC081C6006BC1B4 /* Main.storyboard */; };
@@ -16,6 +18,34 @@
 		662AAB811FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB801FC081C7006BC1B4 /* Orai_Trial_AppUITests.swift */; };
 		662AAB901FC08B2A006BC1B4 /* icons8-microphone-250.png in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB8F1FC08B2A006BC1B4 /* icons8-microphone-250.png */; };
 		662AAB941FC099F5006BC1B4 /* icons8-stop-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 662AAB931FC099F5006BC1B4 /* icons8-stop-120.png */; };
+		662AAB971FC106F3006BC1B4 /* Rest API Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB961FC106F3006BC1B4 /* Rest API Manager.swift */; };
+		662AAB991FC1441C006BC1B4 /* userObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB981FC1441C006BC1B4 /* userObject.swift */; };
+		662AABBA1FC1E3B3006BC1B4 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB9D1FC1E3B2006BC1B4 /* SocketAckEmitter.swift */; };
+		662AABBB1FC1E3B3006BC1B4 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AAB9E1FC1E3B2006BC1B4 /* SocketAckManager.swift */; };
+		662AABBC1FC1E3B3006BC1B4 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA01FC1E3B2006BC1B4 /* SocketAnyEvent.swift */; };
+		662AABBD1FC1E3B3006BC1B4 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA11FC1E3B2006BC1B4 /* SocketEventHandler.swift */; };
+		662AABBE1FC1E3B3006BC1B4 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA21FC1E3B2006BC1B4 /* SocketIOClient.swift */; };
+		662AABBF1FC1E3B3006BC1B4 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA31FC1E3B2006BC1B4 /* SocketIOClientConfiguration.swift */; };
+		662AABC01FC1E3B3006BC1B4 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA41FC1E3B2006BC1B4 /* SocketIOClientOption.swift */; };
+		662AABC11FC1E3B3006BC1B4 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA51FC1E3B2006BC1B4 /* SocketIOClientSpec.swift */; };
+		662AABC21FC1E3B3006BC1B4 /* SocketIOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA61FC1E3B2006BC1B4 /* SocketIOStatus.swift */; };
+		662AABC31FC1E3B3006BC1B4 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA81FC1E3B2006BC1B4 /* SocketEngine.swift */; };
+		662AABC41FC1E3B3006BC1B4 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABA91FC1E3B2006BC1B4 /* SocketEngineClient.swift */; };
+		662AABC51FC1E3B3006BC1B4 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABAA1FC1E3B2006BC1B4 /* SocketEnginePacketType.swift */; };
+		662AABC61FC1E3B3006BC1B4 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABAB1FC1E3B2006BC1B4 /* SocketEnginePollable.swift */; };
+		662AABC71FC1E3B3006BC1B4 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABAC1FC1E3B2006BC1B4 /* SocketEngineSpec.swift */; };
+		662AABC81FC1E3B3006BC1B4 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABAD1FC1E3B2006BC1B4 /* SocketEngineWebsocket.swift */; };
+		662AABC91FC1E3B3006BC1B4 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABAF1FC1E3B2006BC1B4 /* SocketManager.swift */; };
+		662AABCA1FC1E3B3006BC1B4 /* SocketManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABB01FC1E3B2006BC1B4 /* SocketManagerSpec.swift */; };
+		662AABCB1FC1E3B3006BC1B4 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABB21FC1E3B2006BC1B4 /* SocketPacket.swift */; };
+		662AABCC1FC1E3B3006BC1B4 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABB31FC1E3B2006BC1B4 /* SocketParsable.swift */; };
+		662AABCD1FC1E3B3006BC1B4 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABB51FC1E3B2006BC1B4 /* SocketExtensions.swift */; };
+		662AABCE1FC1E3B3006BC1B4 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABB61FC1E3B2006BC1B4 /* SocketLogger.swift */; };
+		662AABCF1FC1E3B3006BC1B4 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABB71FC1E3B2006BC1B4 /* SocketStringReader.swift */; };
+		662AABD01FC1E3B3006BC1B4 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABB81FC1E3B2006BC1B4 /* SocketTypes.swift */; };
+		662AABD11FC1E3B3006BC1B4 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABB91FC1E3B2006BC1B4 /* SSLSecurity.swift */; };
+		662AABD31FC1E3F5006BC1B4 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AABD21FC1E3F5006BC1B4 /* SocketIOManager.swift */; };
+		93B61F419D69F9CA1E13D290 /* Pods_Orai_Trial_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1CBE8589391B80003EA1C4 /* Pods_Orai_Trial_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +66,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FBBA856D9A313EF34838CA9 /* Pods-Orai Trial App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orai Trial App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orai Trial App/Pods-Orai Trial App.debug.xcconfig"; sourceTree = "<group>"; };
+		52E314AF14A3B03AA568858F /* Pods_Orai_Trial_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orai_Trial_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53350D0C368D0B4B2EBBF8CB /* Pods_Orai_Trial_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orai_Trial_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C41C403A567A7520A01F3EF /* Pods-Orai Trial AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orai Trial AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orai Trial AppUITests/Pods-Orai Trial AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		601E9F1D5EF632F17B7ACC16 /* Pods-Orai Trial AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orai Trial AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orai Trial AppUITests/Pods-Orai Trial AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		662AAB5D1FC081C6006BC1B4 /* Orai Trial App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orai Trial App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		662AAB601FC081C6006BC1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		662AAB621FC081C6006BC1B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +86,37 @@
 		662AAB821FC081C7006BC1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662AAB8F1FC08B2A006BC1B4 /* icons8-microphone-250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-microphone-250.png"; sourceTree = "<group>"; };
 		662AAB931FC099F5006BC1B4 /* icons8-stop-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-stop-120.png"; sourceTree = "<group>"; };
+		662AAB961FC106F3006BC1B4 /* Rest API Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rest API Manager.swift"; sourceTree = "<group>"; };
+		662AAB981FC1441C006BC1B4 /* userObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userObject.swift; sourceTree = "<group>"; };
+		662AAB9D1FC1E3B2006BC1B4 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
+		662AAB9E1FC1E3B2006BC1B4 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		662AABA01FC1E3B2006BC1B4 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		662AABA11FC1E3B2006BC1B4 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		662AABA21FC1E3B2006BC1B4 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		662AABA31FC1E3B2006BC1B4 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
+		662AABA41FC1E3B2006BC1B4 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
+		662AABA51FC1E3B2006BC1B4 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		662AABA61FC1E3B2006BC1B4 /* SocketIOStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOStatus.swift; sourceTree = "<group>"; };
+		662AABA81FC1E3B2006BC1B4 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		662AABA91FC1E3B2006BC1B4 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		662AABAA1FC1E3B2006BC1B4 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		662AABAB1FC1E3B2006BC1B4 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePollable.swift; sourceTree = "<group>"; };
+		662AABAC1FC1E3B2006BC1B4 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineSpec.swift; sourceTree = "<group>"; };
+		662AABAD1FC1E3B2006BC1B4 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		662AABAF1FC1E3B2006BC1B4 /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		662AABB01FC1E3B2006BC1B4 /* SocketManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManagerSpec.swift; sourceTree = "<group>"; };
+		662AABB21FC1E3B2006BC1B4 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		662AABB31FC1E3B2006BC1B4 /* SocketParsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParsable.swift; sourceTree = "<group>"; };
+		662AABB51FC1E3B2006BC1B4 /* SocketExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketExtensions.swift; sourceTree = "<group>"; };
+		662AABB61FC1E3B2006BC1B4 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		662AABB71FC1E3B2006BC1B4 /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
+		662AABB81FC1E3B2006BC1B4 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		662AABB91FC1E3B2006BC1B4 /* SSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		662AABD21FC1E3F5006BC1B4 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		8A803F74B8E0CC19D343ED77 /* Pods-Orai Trial AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orai Trial AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orai Trial AppTests/Pods-Orai Trial AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C13559812CD73BD46885D292 /* Pods-Orai Trial AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orai Trial AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orai Trial AppTests/Pods-Orai Trial AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4BA477A045AEEF59FB4C127 /* Pods-Orai Trial App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orai Trial App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orai Trial App/Pods-Orai Trial App.release.xcconfig"; sourceTree = "<group>"; };
+		DE1CBE8589391B80003EA1C4 /* Pods_Orai_Trial_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orai_Trial_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B61F419D69F9CA1E13D290 /* Pods_Orai_Trial_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236A783D669B59E059ADD091 /* Pods_Orai_Trial_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF0D00747D0712C04D170B2 /* Pods_Orai_Trial_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +154,10 @@
 				662AAB741FC081C7006BC1B4 /* Orai Trial AppTests */,
 				662AAB7F1FC081C7006BC1B4 /* Orai Trial AppUITests */,
 				662AAB5E1FC081C6006BC1B4 /* Products */,
+				662AAB9A1FC1E3B2006BC1B4 /* Source */,
 				662AAB951FC099F9006BC1B4 /* imgs */,
+				F4CCEBB5306DAA35561C5FB9 /* Pods */,
+				FEB12C715DDA7A9226EF1E4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +177,12 @@
 				662AAB601FC081C6006BC1B4 /* AppDelegate.swift */,
 				662AAB621FC081C6006BC1B4 /* ViewController.swift */,
 				662AAB641FC081C6006BC1B4 /* Main.storyboard */,
+				662AAB961FC106F3006BC1B4 /* Rest API Manager.swift */,
+				662AAB981FC1441C006BC1B4 /* userObject.swift */,
 				662AAB671FC081C6006BC1B4 /* Assets.xcassets */,
 				662AAB691FC081C6006BC1B4 /* LaunchScreen.storyboard */,
 				662AAB6C1FC081C6006BC1B4 /* Info.plist */,
+				662AABD21FC1E3F5006BC1B4 /* SocketIOManager.swift */,
 			);
 			path = "Orai Trial App";
 			sourceTree = "<group>";
@@ -139,6 +214,116 @@
 			path = imgs;
 			sourceTree = "<group>";
 		};
+		662AAB9A1FC1E3B2006BC1B4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				662AAB9B1FC1E3B2006BC1B4 /* SocketIO */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		662AAB9B1FC1E3B2006BC1B4 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				662AAB9C1FC1E3B2006BC1B4 /* Ack */,
+				662AAB9F1FC1E3B2006BC1B4 /* Client */,
+				662AABA71FC1E3B2006BC1B4 /* Engine */,
+				662AABAE1FC1E3B2006BC1B4 /* Manager */,
+				662AABB11FC1E3B2006BC1B4 /* Parse */,
+				662AABB41FC1E3B2006BC1B4 /* Util */,
+			);
+			path = SocketIO;
+			sourceTree = "<group>";
+		};
+		662AAB9C1FC1E3B2006BC1B4 /* Ack */ = {
+			isa = PBXGroup;
+			children = (
+				662AAB9D1FC1E3B2006BC1B4 /* SocketAckEmitter.swift */,
+				662AAB9E1FC1E3B2006BC1B4 /* SocketAckManager.swift */,
+			);
+			path = Ack;
+			sourceTree = "<group>";
+		};
+		662AAB9F1FC1E3B2006BC1B4 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				662AABA01FC1E3B2006BC1B4 /* SocketAnyEvent.swift */,
+				662AABA11FC1E3B2006BC1B4 /* SocketEventHandler.swift */,
+				662AABA21FC1E3B2006BC1B4 /* SocketIOClient.swift */,
+				662AABA31FC1E3B2006BC1B4 /* SocketIOClientConfiguration.swift */,
+				662AABA41FC1E3B2006BC1B4 /* SocketIOClientOption.swift */,
+				662AABA51FC1E3B2006BC1B4 /* SocketIOClientSpec.swift */,
+				662AABA61FC1E3B2006BC1B4 /* SocketIOStatus.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		662AABA71FC1E3B2006BC1B4 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				662AABA81FC1E3B2006BC1B4 /* SocketEngine.swift */,
+				662AABA91FC1E3B2006BC1B4 /* SocketEngineClient.swift */,
+				662AABAA1FC1E3B2006BC1B4 /* SocketEnginePacketType.swift */,
+				662AABAB1FC1E3B2006BC1B4 /* SocketEnginePollable.swift */,
+				662AABAC1FC1E3B2006BC1B4 /* SocketEngineSpec.swift */,
+				662AABAD1FC1E3B2006BC1B4 /* SocketEngineWebsocket.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		662AABAE1FC1E3B2006BC1B4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				662AABAF1FC1E3B2006BC1B4 /* SocketManager.swift */,
+				662AABB01FC1E3B2006BC1B4 /* SocketManagerSpec.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		662AABB11FC1E3B2006BC1B4 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				662AABB21FC1E3B2006BC1B4 /* SocketPacket.swift */,
+				662AABB31FC1E3B2006BC1B4 /* SocketParsable.swift */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		662AABB41FC1E3B2006BC1B4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				662AABB51FC1E3B2006BC1B4 /* SocketExtensions.swift */,
+				662AABB61FC1E3B2006BC1B4 /* SocketLogger.swift */,
+				662AABB71FC1E3B2006BC1B4 /* SocketStringReader.swift */,
+				662AABB81FC1E3B2006BC1B4 /* SocketTypes.swift */,
+				662AABB91FC1E3B2006BC1B4 /* SSLSecurity.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F4CCEBB5306DAA35561C5FB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FBBA856D9A313EF34838CA9 /* Pods-Orai Trial App.debug.xcconfig */,
+				C4BA477A045AEEF59FB4C127 /* Pods-Orai Trial App.release.xcconfig */,
+				C13559812CD73BD46885D292 /* Pods-Orai Trial AppTests.debug.xcconfig */,
+				8A803F74B8E0CC19D343ED77 /* Pods-Orai Trial AppTests.release.xcconfig */,
+				601E9F1D5EF632F17B7ACC16 /* Pods-Orai Trial AppUITests.debug.xcconfig */,
+				5C41C403A567A7520A01F3EF /* Pods-Orai Trial AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEB12C715DDA7A9226EF1E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1CBE8589391B80003EA1C4 /* Pods_Orai_Trial_App.framework */,
+				52E314AF14A3B03AA568858F /* Pods_Orai_Trial_AppTests.framework */,
+				53350D0C368D0B4B2EBBF8CB /* Pods_Orai_Trial_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +331,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 662AAB851FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial App" */;
 			buildPhases = (
+				1DD2B836BD8EF888BFF656F4 /* [CP] Check Pods Manifest.lock */,
 				662AAB591FC081C6006BC1B4 /* Sources */,
 				662AAB5A1FC081C6006BC1B4 /* Frameworks */,
 				662AAB5B1FC081C6006BC1B4 /* Resources */,
+				233F0F86ECE833D698705AB8 /* [CP] Embed Pods Frameworks */,
+				D7C646982F9F10A1F08BDA0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 662AAB881FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial AppTests" */;
 			buildPhases = (
+				B94F075CA80DFD63FBE37148 /* [CP] Check Pods Manifest.lock */,
 				662AAB6D1FC081C7006BC1B4 /* Sources */,
 				662AAB6E1FC081C7006BC1B4 /* Frameworks */,
 				662AAB6F1FC081C7006BC1B4 /* Resources */,
+				9E6C935C932F2BDFFDBF5806 /* [CP] Embed Pods Frameworks */,
+				81772FF2A97B836BA572349D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 662AAB8B1FC081C7006BC1B4 /* Build configuration list for PBXNativeTarget "Orai Trial AppUITests" */;
 			buildPhases = (
+				944A560D9B23F1291C2FAE96 /* [CP] Check Pods Manifest.lock */,
 				662AAB781FC081C7006BC1B4 /* Sources */,
 				662AAB791FC081C7006BC1B4 /* Frameworks */,
 				662AAB7A1FC081C7006BC1B4 /* Resources */,
+				756682FF8300BFBD1602CF66 /* [CP] Embed Pods Frameworks */,
+				903DB48BE8677FAE6BF5F210 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,13 +464,190 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DD2B836BD8EF888BFF656F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Orai Trial App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		233F0F86ECE833D698705AB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Orai Trial App/Pods-Orai Trial App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orai Trial App/Pods-Orai Trial App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756682FF8300BFBD1602CF66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orai Trial AppUITests/Pods-Orai Trial AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81772FF2A97B836BA572349D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orai Trial AppTests/Pods-Orai Trial AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903DB48BE8677FAE6BF5F210 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orai Trial AppUITests/Pods-Orai Trial AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		944A560D9B23F1291C2FAE96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Orai Trial AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6C935C932F2BDFFDBF5806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orai Trial AppTests/Pods-Orai Trial AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94F075CA80DFD63FBE37148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Orai Trial AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C646982F9F10A1F08BDA0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Orai Trial App/Pods-Orai Trial App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		662AAB591FC081C6006BC1B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662AABC51FC1E3B3006BC1B4 /* SocketEnginePacketType.swift in Sources */,
+				662AABBE1FC1E3B3006BC1B4 /* SocketIOClient.swift in Sources */,
+				662AABCD1FC1E3B3006BC1B4 /* SocketExtensions.swift in Sources */,
+				662AABBB1FC1E3B3006BC1B4 /* SocketAckManager.swift in Sources */,
+				662AABC81FC1E3B3006BC1B4 /* SocketEngineWebsocket.swift in Sources */,
+				662AABC71FC1E3B3006BC1B4 /* SocketEngineSpec.swift in Sources */,
 				662AAB631FC081C6006BC1B4 /* ViewController.swift in Sources */,
+				662AABBA1FC1E3B3006BC1B4 /* SocketAckEmitter.swift in Sources */,
+				662AABBC1FC1E3B3006BC1B4 /* SocketAnyEvent.swift in Sources */,
+				662AABBD1FC1E3B3006BC1B4 /* SocketEventHandler.swift in Sources */,
+				662AABBF1FC1E3B3006BC1B4 /* SocketIOClientConfiguration.swift in Sources */,
+				662AABCE1FC1E3B3006BC1B4 /* SocketLogger.swift in Sources */,
+				662AABCF1FC1E3B3006BC1B4 /* SocketStringReader.swift in Sources */,
+				662AABCC1FC1E3B3006BC1B4 /* SocketParsable.swift in Sources */,
+				662AABD11FC1E3B3006BC1B4 /* SSLSecurity.swift in Sources */,
+				662AAB991FC1441C006BC1B4 /* userObject.swift in Sources */,
+				662AAB971FC106F3006BC1B4 /* Rest API Manager.swift in Sources */,
+				662AABC21FC1E3B3006BC1B4 /* SocketIOStatus.swift in Sources */,
+				662AABCA1FC1E3B3006BC1B4 /* SocketManagerSpec.swift in Sources */,
+				662AABD31FC1E3F5006BC1B4 /* SocketIOManager.swift in Sources */,
+				662AABC31FC1E3B3006BC1B4 /* SocketEngine.swift in Sources */,
+				662AABD01FC1E3B3006BC1B4 /* SocketTypes.swift in Sources */,
+				662AABC91FC1E3B3006BC1B4 /* SocketManager.swift in Sources */,
+				662AABCB1FC1E3B3006BC1B4 /* SocketPacket.swift in Sources */,
 				662AAB611FC081C6006BC1B4 /* AppDelegate.swift in Sources */,
+				662AABC11FC1E3B3006BC1B4 /* SocketIOClientSpec.swift in Sources */,
+				662AABC41FC1E3B3006BC1B4 /* SocketEngineClient.swift in Sources */,
+				662AABC61FC1E3B3006BC1B4 /* SocketEnginePollable.swift in Sources */,
+				662AABC01FC1E3B3006BC1B4 /* SocketIOClientOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +811,7 @@
 		};
 		662AAB861FC081C7006BC1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBBA856D9A313EF34838CA9 /* Pods-Orai Trial App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +828,7 @@
 		};
 		662AAB871FC081C7006BC1B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BA477A045AEEF59FB4C127 /* Pods-Orai Trial App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +845,7 @@
 		};
 		662AAB891FC081C7006BC1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13559812CD73BD46885D292 /* Pods-Orai Trial AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +862,7 @@
 		};
 		662AAB8A1FC081C7006BC1B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A803F74B8E0CC19D343ED77 /* Pods-Orai Trial AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +879,7 @@
 		};
 		662AAB8C1FC081C7006BC1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601E9F1D5EF632F17B7ACC16 /* Pods-Orai Trial AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +895,7 @@
 		};
 		662AAB8D1FC081C7006BC1B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C41C403A567A7520A01F3EF /* Pods-Orai Trial AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

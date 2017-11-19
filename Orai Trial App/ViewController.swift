@@ -8,12 +8,15 @@
 
 import UIKit
 import AVFoundation
+import SwiftyJSON
+
 
 class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate {
     var recordingSession: AVAudioSession!
     var audioRecorder: AVAudioRecorder!
     var audioPlayer : AVAudioPlayer!
     var soundSetting = [String : Int]()
+    var items = [UserObject]()
 
 
     
@@ -141,8 +144,24 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
     }
     
     
-    
+    func addDummyData() {
+        RestApiManager.sharedInstance.getRandomUser { (json: JSON) in
+            if let results = json["results"].array{
+            
+            print(json["results"], "chris it worked")
 
+            }
+        }
+        print(self.items)
+        
+    }
+    
+    
+    @IBAction func testButton(_ sender: Any) {
+        
+        addDummyData()
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
